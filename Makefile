@@ -108,6 +108,7 @@ runtests-cmdline: all
 	TMPDIR="$(test_tmp)" t/test-save-creates-no-unrefs.sh
 	TMPDIR="$(test_tmp)" t/test-save-restore-excludes.sh
 	TMPDIR="$(test_tmp)" t/test-save-strip-graft.sh
+	TMPDIR="$(test_tmp)" t/test-import-duplicity.sh
 	TMPDIR="$(test_tmp)" t/test-import-rdiff-backup.sh
 	TMPDIR="$(test_tmp)" t/test-xdev.sh
 	TMPDIR="$(test_tmp)" t/test.sh
